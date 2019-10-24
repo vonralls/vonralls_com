@@ -1,0 +1,79 @@
+html {
+    background: url(/assets/images/von-background.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 40px;
+}
+.bio h1 {
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-weight: 100;
+    font-size: 50px;
+}
+.social-icons {
+    font-size: 35px;
+    color: white;
+}
+.social-icons a {
+    color: white;
+
+}
+.social-icons a:hover {
+    color: #F3F3F3;
+}
+.introduction {
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-weight: 200;
+    font-size: 21px;
+    letter-spacing: 1px;
+}
+.call-to-action {
+    padding-top: 40px;
+}
+.button {
+    font-family: 'Lato', sans-serif;
+    size: 18px;
+    font-weight: 400;
+    background-color: #5B1A25;
+    height: 50px;
+    color: white;
+    text-decoration: none;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding: 20px;
+    letter-spacing: 1px;
+}
+
+@media screen and (max-width:720px){
+
+    .bio h1 {
+        font-size: 40px;
+        text-align: center;
+    }
+    .social-icons {
+        font-size: 30px;
+        text-align: center;
+
+    }
+    .introduction {
+        font-size: 15px;
+        text-align: center;
+    }
+    .call-to-action {
+        text-align: center;
+        padding-top: 35px;
+    }
+    .button {
+        padding: 20px;
+    }
+
+}
